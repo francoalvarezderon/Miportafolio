@@ -1,11 +1,11 @@
 body {background-color:rgb(241, 229, 214);}
 
-h1 {
+.miNombre {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 100%;
+    font-size: 150%;
     font-weight: lighter;
     text-align:left;
-    margin: 25px;
+    margin: 20px;
     color: black;
     margin-top: 1em ;
 }
@@ -79,7 +79,7 @@ h1 {
 .lista img:hover {
   transform: scale(1.2);
 }
-h3 {
+#proyectos {
     font-family: cursive, sans-serif;
     font-size: 150%;
     text-align: center;
@@ -87,7 +87,8 @@ h3 {
     color:black;
     background-color:rgb(183, 216, 247);
 }
-.introduccion {
+
+    .introduccion {
     font-family: cursive, sans-serif;
     text-align: center;
     margin-top: -20px;
@@ -154,8 +155,9 @@ h4 {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    animation: menu 1s ease infinite;
 }
 .menu li a:hover {
-  color: red;  /* cambiar color al pasar el mouse */
+  color: rgb(0, 17, 255);  /* cambiar color al pasar el mouse */
 }
-
+  
